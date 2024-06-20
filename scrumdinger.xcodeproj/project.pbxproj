@@ -21,6 +21,7 @@
 		36F982DE2C249EB50024848D /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F982DD2C249EB50024848D /* ScrumsView.swift */; };
 		36F982E22C24A52F0024848D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F982E12C24A52F0024848D /* DetailView.swift */; };
 		36F982E42C24B2B80024848D /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F982E32C24B2B80024848D /* DetailEditView.swift */; };
+		36F982E82C24C8100024848D /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F982E72C24C8100024848D /* ThemeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		36F982DD2C249EB50024848D /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		36F982E12C24A52F0024848D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		36F982E32C24B2B80024848D /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		36F982E72C24C8100024848D /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 		36F982DF2C249F840024848D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				36F982E72C24C8100024848D /* ThemeView.swift */,
 				361BEB272C239E7B0020458F /* CardView.swift */,
 				36F982E02C249F8D0024848D /* Screens */,
 			);
@@ -310,6 +313,7 @@
 				36F982DE2C249EB50024848D /* ScrumsView.swift in Sources */,
 				361BEAFB2C23953E0020458F /* MeetingView.swift in Sources */,
 				361BEAF92C23953E0020458F /* scrumdingerApp.swift in Sources */,
+				36F982E82C24C8100024848D /* ThemeView.swift in Sources */,
 				361BEB282C239E7B0020458F /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
