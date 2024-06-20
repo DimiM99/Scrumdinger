@@ -22,6 +22,7 @@
 		36F982E22C24A52F0024848D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F982E12C24A52F0024848D /* DetailView.swift */; };
 		36F982E42C24B2B80024848D /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F982E32C24B2B80024848D /* DetailEditView.swift */; };
 		36F982E82C24C8100024848D /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F982E72C24C8100024848D /* ThemeView.swift */; };
+		36F982EA2C24DF140024848D /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F982E92C24DF140024848D /* ThemePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		36F982E12C24A52F0024848D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		36F982E32C24B2B80024848D /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		36F982E72C24C8100024848D /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		36F982E92C24DF140024848D /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				361BEAFA2C23953E0020458F /* MeetingView.swift */,
 				36F982E12C24A52F0024848D /* DetailView.swift */,
 				36F982E32C24B2B80024848D /* DetailEditView.swift */,
+				36F982E92C24DF140024848D /* ThemePicker.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F982EA2C24DF140024848D /* ThemePicker.swift in Sources */,
 				361BEB262C239E200020458F /* DailyScrum.swift in Sources */,
 				36F982E22C24A52F0024848D /* DetailView.swift in Sources */,
 				36F982E42C24B2B80024848D /* DetailEditView.swift in Sources */,
