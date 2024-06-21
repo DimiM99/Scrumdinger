@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		361AF4032C2627920062AEAA /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361AF4022C2627920062AEAA /* NewScrumSheet.swift */; };
+		361AF4052C262AE10062AEAA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361AF4042C262AE10062AEAA /* History.swift */; };
 		361BEAF92C23953E0020458F /* scrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BEAF82C23953E0020458F /* scrumdingerApp.swift */; };
 		361BEAFB2C23953E0020458F /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BEAFA2C23953E0020458F /* MeetingView.swift */; };
 		361BEAFD2C23953E0020458F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361BEAFC2C23953E0020458F /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		361AF4022C2627920062AEAA /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
+		361AF4042C262AE10062AEAA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		361BEAF52C23953D0020458F /* scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		361BEAF82C23953E0020458F /* scrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrumdingerApp.swift; sourceTree = "<group>"; };
 		361BEAFA2C23953E0020458F /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 			children = (
 				361BEB232C239D300020458F /* Theme.swift */,
 				361BEB252C239E200020458F /* DailyScrum.swift */,
+				361AF4042C262AE10062AEAA /* History.swift */,
 				36BD105B2C25C12A0012EABA /* ScrumTimer.swift */,
 				36BD105F2C25C84B0012EABA /* AVPlayer+Ding.swift */,
 			);
@@ -346,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				361AF4052C262AE10062AEAA /* History.swift in Sources */,
 				36F982EA2C24DF140024848D /* ThemePicker.swift in Sources */,
 				36BD105A2C25C03B0012EABA /* ScrumProgressViewStyle.swift in Sources */,
 				36BD105E2C25C4230012EABA /* MeetingFooterView.swift in Sources */,
@@ -526,6 +530,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"scrumdinger/Preview Content\"";
+				DEVELOPMENT_TEAM = AH48V64XDQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -559,6 +564,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"scrumdinger/Preview Content\"";
+				DEVELOPMENT_TEAM = AH48V64XDQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
