@@ -159,7 +159,6 @@
 		361BEB222C239D130020458F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				366EC5742C245EFD00850B25 /* TrailingIconLabelStyle.swift */,
 				361BEB232C239D300020458F /* Theme.swift */,
 				361BEB252C239E200020458F /* DailyScrum.swift */,
 				36BD105B2C25C12A0012EABA /* ScrumTimer.swift */,
@@ -168,14 +167,23 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		36BD10612C25C87F0012EABA /* StylingViews */ = {
+			isa = PBXGroup;
+			children = (
+				366EC5742C245EFD00850B25 /* TrailingIconLabelStyle.swift */,
+				36BD10592C25C03B0012EABA /* ScrumProgressViewStyle.swift */,
+			);
+			path = StylingViews;
+			sourceTree = "<group>";
+		};
 		36F982DF2C249F840024848D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				36F982E02C249F8D0024848D /* Screens */,
+				36BD10612C25C87F0012EABA /* StylingViews */,
 				36F982E72C24C8100024848D /* ThemeView.swift */,
 				361BEB272C239E7B0020458F /* CardView.swift */,
-				36BD10592C25C03B0012EABA /* ScrumProgressViewStyle.swift */,
 				36BD10572C2563710012EABA /* MeetingHeaderView.swift */,
-				36F982E02C249F8D0024848D /* Screens */,
 				36BD105D2C25C4230012EABA /* MeetingFooterView.swift */,
 			);
 			path = Views;
