@@ -22,6 +22,7 @@
 		36BD105A2C25C03B0012EABA /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BD10592C25C03B0012EABA /* ScrumProgressViewStyle.swift */; };
 		36BD105C2C25C12A0012EABA /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BD105B2C25C12A0012EABA /* ScrumTimer.swift */; };
 		36BD105E2C25C4230012EABA /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BD105D2C25C4230012EABA /* MeetingFooterView.swift */; };
+		36BD10602C25C84B0012EABA /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BD105F2C25C84B0012EABA /* AVPlayer+Ding.swift */; };
 		36F982DE2C249EB50024848D /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F982DD2C249EB50024848D /* ScrumsView.swift */; };
 		36F982E22C24A52F0024848D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F982E12C24A52F0024848D /* DetailView.swift */; };
 		36F982E42C24B2B80024848D /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F982E32C24B2B80024848D /* DetailEditView.swift */; };
@@ -65,6 +66,7 @@
 		36BD10592C25C03B0012EABA /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		36BD105B2C25C12A0012EABA /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		36BD105D2C25C4230012EABA /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		36BD105F2C25C84B0012EABA /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		36F982DD2C249EB50024848D /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		36F982E12C24A52F0024848D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		36F982E32C24B2B80024848D /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				361BEB232C239D300020458F /* Theme.swift */,
 				361BEB252C239E200020458F /* DailyScrum.swift */,
 				36BD105B2C25C12A0012EABA /* ScrumTimer.swift */,
+				36BD105F2C25C84B0012EABA /* AVPlayer+Ding.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				361BEAF92C23953E0020458F /* scrumdingerApp.swift in Sources */,
 				36F982E82C24C8100024848D /* ThemeView.swift in Sources */,
 				361BEB282C239E7B0020458F /* CardView.swift in Sources */,
+				36BD10602C25C84B0012EABA /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
