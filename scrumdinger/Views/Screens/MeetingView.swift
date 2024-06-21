@@ -9,14 +9,18 @@ import SwiftUI
 
 struct MeetingView: View {
     
-    @Binding var scum: DailyScrum
+    @Binding var scrum: DailyScrum
+    
+    @StateObject var scrumTimer = ScrumTimer()
     
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 16.0)
-                .fill(scum.theme.mainColor)
+                .fill(scrum.theme.mainColor)
             VStack {
-                
+                MeetingHeaderView(secondsElapsed: scrumTimer.secondsElapsed,
+                                                  secondsRemaining: scrumTimer.secondsRemaining,
+                                                  theme: scrum.theme)
                 Circle()
                     .strokeBorder(lineWidth: 24)
                 HStack {
@@ -30,11 +34,11 @@ struct MeetingView: View {
             }
         }
         .padding()
-        .foregroundColor(scum.theme.accentColor)
+        .foregroundColor(scrum.theme.accentColor)
         .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 #Preview {
-    MeetingView(scum: .constant(DailyScrum.sampleData[0]))
+    MeetingView(scrum: .constant(DailyScrum.sampleData[0]))
 }
