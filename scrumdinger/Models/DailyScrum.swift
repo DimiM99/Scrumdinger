@@ -30,6 +30,7 @@ struct DailyScrum: Identifiable {
         }
     }
     var theme: Theme
+    var history: [History] = []
 }
 
 extension DailyScrum {
