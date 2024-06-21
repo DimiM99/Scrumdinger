@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361AF4032C2627920062AEAA /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361AF4022C2627920062AEAA /* NewScrumSheet.swift */; };
 		361BEAF92C23953E0020458F /* scrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BEAF82C23953E0020458F /* scrumdingerApp.swift */; };
 		361BEAFB2C23953E0020458F /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BEAFA2C23953E0020458F /* MeetingView.swift */; };
 		361BEAFD2C23953E0020458F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361BEAFC2C23953E0020458F /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		361AF4022C2627920062AEAA /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
 		361BEAF52C23953D0020458F /* scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		361BEAF82C23953E0020458F /* scrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrumdingerApp.swift; sourceTree = "<group>"; };
 		361BEAFA2C23953E0020458F /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 				36F982E12C24A52F0024848D /* DetailView.swift */,
 				36F982E32C24B2B80024848D /* DetailEditView.swift */,
 				36F982E92C24DF140024848D /* ThemePicker.swift */,
+				361AF4022C2627920062AEAA /* NewScrumSheet.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				36F982E22C24A52F0024848D /* DetailView.swift in Sources */,
 				36BD10582C2563710012EABA /* MeetingHeaderView.swift in Sources */,
 				36F982E42C24B2B80024848D /* DetailEditView.swift in Sources */,
+				361AF4032C2627920062AEAA /* NewScrumSheet.swift in Sources */,
 				366EC5752C245EFD00850B25 /* TrailingIconLabelStyle.swift in Sources */,
 				361BEB242C239D300020458F /* Theme.swift in Sources */,
 				36F982DE2C249EB50024848D /* ScrumsView.swift in Sources */,
