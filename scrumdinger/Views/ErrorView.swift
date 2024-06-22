@@ -11,21 +11,32 @@ struct ErrorView: View {
     
     let errorWrapper: ErrorWrapper
     
+    @Environment(\.dismiss) private var dismiss
+    
     var body: some View {
-        VStack {
-            Text("An error has ocurred")
-                .font(.title)
-                .padding(.bottom)
-            Text(errorWrapper.error.localizedDescription)
-                .font(.headline)
-            Text(errorWrapper.guidance)
-                .font(.caption)
-                .padding(.top)
-            Spacer()
+        NavigationStack {
+            VStack {
+                Text("An error has ocurred")
+                    .font(.title)
+                    .padding(.bottom)
+                Text(errorWrapper.error.localizedDescription)
+                    .font(.headline)
+                Text(errorWrapper.guidance)
+                    .font(.caption)
+                    .padding(.top)
+                Spacer()
+            }
+            .background(.ultraThinMaterial)
+            .cornerRadius(16.0)
+            .padding()
+            .toolbar(content: {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("Dismiss") {
+                        dismiss()
+                    }
+                }
+            })
         }
-        .background(.ultraThinMaterial)
-        .cornerRadius(16.0)
-        .padding()
     }
 }
 
